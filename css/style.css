@@ -5,11 +5,19 @@
     align-items: center;
 }
 
+
+.banner,
+footer,
+.herocontent {
+    padding-inline: 10%;
+}
+
+
 .banner {
     display: flex;
     height: 10%;
     background-color: rgb(128, 0, 0);
-    justify-content: space-around;
+    justify-content: space-between;
     padding-block: 1%;
 }
 
@@ -30,15 +38,14 @@
     border-radius: 999px;
 }
 
-.title,
 .download {
-    text-align: center;
     margin: 10px;
-
 }
 
 .herocontent {
     background-color: chartreuse;
+    text-align: center;
+
 }
 
 .row {
@@ -66,4 +73,14 @@
 .row:last-child {
     flex-direction: column-reverse;
     text-align: center;
+}
+
+footer .banner {
+    background-color: gray;
+
+}
+
+footer {
+    background-color: chocolate;
+    padding: 0%;
 }
