@@ -2,6 +2,7 @@
     display: flex;
     height: 70vh;
     background-color: blue;
+    align-items: center;
 }
 
 .banner {
@@ -21,11 +22,21 @@
 
 }
 
-button {
-    background-color: rgb(7, 60, 107);
-    height: 20px;
+.button {
+    background-color: #255ee9;
+    height: 30px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 999px;
+}
+
+.title,
+.download {
+    text-align: center;
+    margin: 10px;
+
 }
 
 .herocontent {
-    display: flex;
+    background-color: chartreuse;
 }
