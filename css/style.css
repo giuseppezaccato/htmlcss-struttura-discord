@@ -44,9 +44,8 @@
 .row {
     display: flex;
     justify-content: center;
-    padding: 50px 100px;
+    padding: 10%;
     gap: 50px;
-
 }
 
 .picture {
@@ -62,5 +61,9 @@
 .row:nth-child(even) {
     background-color: aquamarine;
     flex-direction: row-reverse;
+}
 
+.row:last-child {
+    flex-direction: column-reverse;
+    text-align: center;
 }
