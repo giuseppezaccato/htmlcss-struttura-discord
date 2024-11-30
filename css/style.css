@@ -40,3 +40,27 @@
 .herocontent {
     background-color: chartreuse;
 }
+
+.row {
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px;
+    gap: 50px;
+
+}
+
+.picture {
+    width: 600px;
+    height: 450px;
+}
+
+.row figure {
+    flex-basis: 40%;
+    background-color: red;
+}
+
+.row:nth-child(even) {
+    background-color: aquamarine;
+    flex-direction: row-reverse;
+
+}
