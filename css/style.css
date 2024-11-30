@@ -1,0 +1,31 @@
+.hero {
+    display: flex;
+    height: 70vh;
+    background-color: blue;
+}
+
+.banner {
+    display: flex;
+    height: 10%;
+    background-color: rgb(128, 0, 0);
+    justify-content: space-around;
+    padding-block: 1%;
+}
+
+.logo {
+    background-color: aqua;
+}
+
+.links {
+    background-color: rgb(68, 0, 255);
+
+}
+
+button {
+    background-color: rgb(7, 60, 107);
+    height: 20px;
+}
+
+.herocontent {
+    display: flex;
+}
