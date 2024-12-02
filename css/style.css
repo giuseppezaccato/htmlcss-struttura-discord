@@ -1,22 +1,27 @@
 .hero {
     display: flex;
-    height: 70vh;
+
     background-color: blue;
     align-items: center;
+    text-align: center;
 }
 
-.tabcontainer,
-.herocontent {
-    padding-inline: 10%;
+.tabcontainer {
+    width: 80%;
+    margin: 0 auto;
 }
+
+/* .herocontent { 
+    padding-inline: 10%;
+} */
 
 
 .banner {
     display: flex;
     height: 10%;
     background-color: rgb(128, 0, 0);
-    justify-content: space-between;
-    padding-block: 1%;
+    justify-content: space-around;
+    padding-block: 15px;
     padding-inline: 10%;
 }
 
@@ -43,14 +48,18 @@
 
 .herocontent {
     background-color: chartreuse;
-    text-align: center;
+    width: 70%;
+    margin: 0 auto;
 
 }
 
 .row {
     display: flex;
-    justify-content: center;
+    /* justify-content: center;
+    è scorretto, per via del fatto che il testo sennò tendere ad occupare
+     tutta la riga arrivando agli estremi, e a noi questo non interessa.. */
     padding: 10%;
+    margin: 0 auto;
     gap: 50px;
 }
 
@@ -58,6 +67,11 @@
 .row figure {
     flex-basis: 40%;
     background-color: red;
+}
+
+.row aside {
+    flex-basis: 60%;
+    background-color: blue;
 }
 
 .row:nth-child(even) {
@@ -72,8 +86,6 @@
 
 .tabcontainer {
     display: flex;
-
-
 
 }
 
